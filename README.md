@@ -21,7 +21,7 @@ Many variants of the Wasserstein distance have been introduced to reduce its ori
 
 - In the folder "Runtime - Evolutions", you can find some experiments on SSW.
 - In the GradientFlows notebook, you can find experiments of Section 5.1 where we aim at learning a distribution on the sphere from which we have access to samples.
-- - In the Density Estimation folder, we report the code used for density estimation used in Section 5.1.
+- In the Density Estimation folder, we report the code used for density estimation used in Section 5.1.
 - In the "SWVI" folder, you can find the code of the variational inference experiment of Appendix X.5. In this experiment, we want to learn a distribution from which we known the density up to a constant.
 - In the folder "SWAE", you can find the code to reproduce the experiments of Section 5.2 in which we compare several Wasserstein autoencoders with different divergence between the prior and the generator in the latent space. More precisely, we compared SSW with SW, MMD and the IMQ or RBF kernel, the Sinkhorn divergence and the (circular) generalized SW distance.
 
