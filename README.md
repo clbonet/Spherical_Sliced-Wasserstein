@@ -33,5 +33,5 @@ Many variants of the Wasserstein distance have been introduced to reduce its ori
 - The generalized SW distance code was taken from the [gsw](https://github.com/kimiandj/gsw) repository.
 - For the von Mises-Fisher distributions, we used some code of the [von-Mises-Sampling](https://github.com/dlwhittenbury/von-Mises-Sampling) repository and of the [von-Mises-Fisher-Sampling](https://github.com/dlwhittenbury/von-Mises-Fisher-Sampling) repository. For the power spherical distribution, we used some code of the [power_spherical](https://github.com/nicola-decao/power_spherical) repository.
 - For the FID implementation, we used some code of the [SINF](https://github.com/biweidai/SINF) repository.
-- - To load the earth data, we used some code of the [moser_flow](https://github.com/noamroze/moser_flow) repository.
+- To load the earth data, we used some code of the [moser_flow](https://github.com/noamroze/moser_flow) repository.
 
