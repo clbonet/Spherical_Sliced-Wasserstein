@@ -9,11 +9,11 @@ Many variants of the Wasserstein distance have been introduced to reduce its ori
 ## Citation
 
 ```
-@article{bonet2022spherical,
+@inproceedings{bonet2023spherical,
     title={Spherical Sliced-Wasserstein},
     author={Clément Bonet and Paul Berg and Nicolas Courty and François Septier and Lucas Drumetz and Minh-Tan Pham},
-    year={2022},
-    journal={arXiv preprint arXiv:2206.08780}
+    year={2023},
+    booktitle={International Conference on Learning Representations},
 }
 ```
 
@@ -21,7 +21,8 @@ Many variants of the Wasserstein distance have been introduced to reduce its ori
 
 - In the folder "Runtime - Evolutions", you can find some experiments on SSW.
 - In the GradientFlows notebook, you can find experiments of Section 5.1 where we aim at learning a distribution on the sphere from which we have access to samples.
-- In the "SWVI" folder, you can find the code of the variational inference experiment of Section 5.1. In this experiment, we want to learn a distribution from which we known the density up to a constant.
+- - In the Density Estimation folder, we report the code used for density estimation used in Section 5.1.
+- In the "SWVI" folder, you can find the code of the variational inference experiment of Appendix X.5. In this experiment, we want to learn a distribution from which we known the density up to a constant.
 - In the folder "SWAE", you can find the code to reproduce the experiments of Section 5.2 in which we compare several Wasserstein autoencoders with different divergence between the prior and the generator in the latent space. More precisely, we compared SSW with SW, MMD and the IMQ or RBF kernel, the Sinkhorn divergence and the (circular) generalized SW distance.
 
 
@@ -32,4 +33,5 @@ Many variants of the Wasserstein distance have been introduced to reduce its ori
 - The generalized SW distance code was taken from the [gsw](https://github.com/kimiandj/gsw) repository.
 - For the von Mises-Fisher distributions, we used some code of the [von-Mises-Sampling](https://github.com/dlwhittenbury/von-Mises-Sampling) repository and of the [von-Mises-Fisher-Sampling](https://github.com/dlwhittenbury/von-Mises-Fisher-Sampling) repository. For the power spherical distribution, we used some code of the [power_spherical](https://github.com/nicola-decao/power_spherical) repository.
 - For the FID implementation, we used some code of the [SINF](https://github.com/biweidai/SINF) repository.
+- - To load the earth data, we used some code of the [moser_flow](https://github.com/noamroze/moser_flow) repository.
 
